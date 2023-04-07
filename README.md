@@ -19,11 +19,11 @@ Write your own steps
 
 ## PROGRAM
 
-Include your code here
 
 ## OUTPUT
 
-Include the screenshot of your admin page.
+Include the screenshot of your admin page.![Screenshot (7)](https://user-images.githubusercontent.com/123856724/230646375-4ba9fb6c-828b-4ef8-8dd1-37042299dd3b.png)
+
 
 
 ## RESULT

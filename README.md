@@ -27,24 +27,32 @@ Makemigratons and migrate the changes.
 admin.py 
 
 from django.contrib import admin
+
 from .models import Student,StudentAdmin
+
 admin.site.register(Student,StudentAdmin)
 
 models.py
 
 from django.db import models
+
 from django.contrib import admin
 
 
 
 class Student (models.Model):
+
     referencenumber=models.CharField(max_length=20,help_text="reference number")
+    
     name=models.CharField(max_length=100)
+    
     age=models.IntegerField()
+    
     email=models.EmailField()
 
 
 class StudentAdmin(admin.ModelAdmin):
+
     list_display=('referencenumber','name','age','email')
 '''    
 

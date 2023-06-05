@@ -24,6 +24,7 @@ Makemigratons and migrate the changes.
 
 ## PROGRAM
 '''
+
 admin.py 
 
 from django.contrib import admin
